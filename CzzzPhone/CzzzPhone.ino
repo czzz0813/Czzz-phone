@@ -31,8 +31,7 @@ void setup()
     LCDA.Initialise(); // 屏幕初始化
 
 delay(100);
- // Serial.begin(9600); 
-   dlcd("CzzzPhone init");
+  Serial.begin(9600); 
    initGSM();
    noOpStar=millis();
     pinMode(2,OUTPUT); // bebe
