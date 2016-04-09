@@ -1,4 +1,4 @@
-#include <Keypad.h>
+﻿#include <Keypad.h>
 #include "LCD12864RSPI.h"
 #define AR_SIZE( a ) sizeof( a ) / sizeof( a[0] )
 const byte ROWS=4;
